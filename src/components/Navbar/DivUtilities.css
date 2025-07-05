@@ -1,0 +1,14 @@
+.utilities {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  backdrop-filter: blur(100px);
+  border: transparent 1px solid;
+  border-radius: 0 0 0 20px;
+}

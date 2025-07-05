@@ -1,0 +1,18 @@
+.language {
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+}
+
+.language > button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.language > button > img {
+  height: 100%;
+  width: 100%;
+}

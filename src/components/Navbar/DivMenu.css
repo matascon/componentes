@@ -1,0 +1,33 @@
+.menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: solid 3px var(--menu-primary);
+  border-top: 0;
+  border-radius: 0px 0px 20px 20px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.menu > ul {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.menu > p {
+  width: 100%;
+  padding: 0.5rem 0 0 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--menu-primary);
+  border: none;
+  border-top: 1px solid var(--menu-primary);
+}

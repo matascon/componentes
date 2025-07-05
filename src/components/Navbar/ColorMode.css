@@ -1,0 +1,18 @@
+.color-mode {
+  height: 2rem;
+  width: 2rem;
+}
+
+.color-mode > button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-color-mode {
+  height: 100%;
+  width: 100%;
+  color: var(--menu-secondary);
+}

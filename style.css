@@ -1,0 +1,33 @@
+:root {
+  --background-dark: #000;
+  --background-light: #fff;
+  --primary-dark: #fff;
+  --primary-light: #000;
+  --menu-secondary: #7e7e7e;
+  --menu-primary: #f32727;
+  --main-secondary: #7e7e7e;
+  --main-primary: #f32727;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  
+  color: var(--primary-dark); /*ELIMINAR AL FINAL MATEO, RECUERDA*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: auto;
+  width: auto;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-dark);
+  transition: all 300ms ease-in-out;
+}

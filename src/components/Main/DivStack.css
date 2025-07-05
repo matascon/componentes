@@ -1,0 +1,16 @@
+.div-stack {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-stack > h2 {
+  font-size: 1.75rem;
+}
+
+.div-stack > h3 {
+  font-size: 1.5rem;
+}
