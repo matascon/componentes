@@ -10,7 +10,7 @@
   border-radius: 0px 0px 20px 20px;
   padding: 0.5rem 2rem 0.5rem 2rem;
   backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(100px);
 }
 
 .menu > ul {
@@ -30,4 +30,15 @@
   color: var(--menu-primary);
   border: none;
   border-top: 1px solid var(--menu-primary);
+}
+
+@media (max-width: 700px) {
+  .menu {
+    border: none;
+  }
+
+  .menu > p {
+    border: none;
+    padding: 0;
+  }
 }

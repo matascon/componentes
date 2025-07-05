@@ -8,3 +8,11 @@ nav {
   width: 100%;
   z-index: 3;
 }
+
+@media (max-width: 700px) {
+  nav {
+    border-bottom: var(--menu-primary) 3px solid;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+  }
+}

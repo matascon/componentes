@@ -1,6 +1,6 @@
 .div-introduce {
   height: auto;
-  width: 75%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 .div-introduce > h1 > span {
-  color:rgb(245, 184, 51);
+  color: var(--span);
 }
 
 .div-introduce > h2 {
@@ -24,4 +24,22 @@
 
 .div-introduce > p {
   font-size: 1.5rem;
+}
+
+.div-introduce > p > span {
+  color: var(--main-primary);
+}
+
+@media (max-width: 700px) {
+  .div-introduce > h1 {
+    font-size: 2.75rem;
+  }
+
+  .div-introduce > h2 {
+    font-size: 1.5rem;
+  }
+
+  .div-introduce > p {
+    font-size: 1.25rem;
+  }
 }

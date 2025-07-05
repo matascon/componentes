@@ -10,3 +10,11 @@
   width: 100%;
   position: relative;
 }
+
+.dark-container {
+  color: var(--primary-dark);
+}
+
+.light-container {
+  color: var(--primary-light);
+}

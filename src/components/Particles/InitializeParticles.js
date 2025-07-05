@@ -6,6 +6,7 @@ export const InitializeParticles = () => {
 
   const divContainer = document.createElement('div');
   divContainer.id = 'container';
+  divContainer.classList.add('dark-container');
   
   const particlesMinJs = document.createElement('script');
   particlesMinJs.src = '/src/components/Particles/particles.min.js';

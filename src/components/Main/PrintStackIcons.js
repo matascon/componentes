@@ -9,6 +9,7 @@ export const PrintStackIcons = (images) => {
 
     img.src = image.route;
     img.alt = image.name;
+    img.title = image.name;
     li.appendChild(img);
     ul.appendChild(li);
   }

@@ -1,16 +1,20 @@
 import './Main.css';
-import { DivIntroduce } from './DivIntroduce';
-import { DivStack } from './DivStack';
+import { InfoSection } from './InfoSection';
+import { StudiesSection } from './StudiesSection';
+import { PortfolioSection } from './PortfolioSection';
 
 export const Main = () => {
   const container = document.querySelector('#container');
   const main = document.createElement('main');
-
   let section = document.createElement('section');
-  section.classList.add('info');
+  
+  section = InfoSection();
+  main.appendChild(section);
 
-  section.appendChild(DivIntroduce());
-  section.appendChild(DivStack());
+  section = StudiesSection();
+  main.appendChild(section);
+
+  section = PortfolioSection();
   main.appendChild(section);
 
   container.appendChild(main);

@@ -5,10 +5,3 @@ main {
   padding: 4rem 0 0 0;
   z-index: 1;
 }
-
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}

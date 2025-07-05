@@ -1,6 +1,6 @@
 import './DivIntroduce.css';
 
-export const DivIntroduce= () => {
+const DivIntroduce= () => {
   const divIntroduce = document.createElement('div');
   const h1 = document.createElement('h1');
   const h2 = document.createElement('h2');
@@ -19,3 +19,5 @@ export const DivIntroduce= () => {
 
   return divIntroduce;
 };
+
+export default DivIntroduce;

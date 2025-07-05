@@ -1,8 +1,8 @@
 import './DivStack.css';
-import { knowledge, learning } from './dataStack';
+import { knowledge, learning } from './dataMain';
 import { PrintStackIcons } from './PrintStackIcons';
 
-export const DivStack = () => {
+const DivStack = () => {
   const divStack = document.createElement('div');
   const h2 = document.createElement('h2');
   const h3 = document.createElement('h3');
@@ -22,3 +22,5 @@ export const DivStack = () => {
 
   return divStack;
 };
+
+export default DivStack;
