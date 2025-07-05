@@ -9,11 +9,11 @@ export const InitializeParticles = () => {
   divContainer.classList.add('dark-container');
   
   const particlesMinJs = document.createElement('script');
-  particlesMinJs.src = '/src/components/Particles/particles.min.js';
+  particlesMinJs.src = '/particles/particles.min.js';
   
   particlesMinJs.onload = () => {
     const particlesJs = document.createElement('script');
-    particlesJs.src = '/src/components/Particles/particles.js';
+    particlesJs.src = '/particles/particles.js';
 
     document.body.appendChild(particlesJs);
   };
