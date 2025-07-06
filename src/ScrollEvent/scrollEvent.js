@@ -40,7 +40,7 @@ const scrollEvent = () => {
   {
     root: null,
     rootMargin: '0px',
-    threshold: 0.35
+    threshold: 0.3
   });
 
   sections.forEach(section => observer.observe(section));
