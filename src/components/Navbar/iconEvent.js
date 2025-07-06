@@ -7,7 +7,7 @@ const iconEvent = () => {
     const navHeight = document.querySelector('nav')?.offsetHeight || 0;
 
     window.scrollTo({
-      top: offsetTop - navHeight,
+      top: offsetTop - navHeight * 1.25,
       behavior: 'smooth'
     });
   };
