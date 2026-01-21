@@ -43,13 +43,6 @@ export const knowledge = [
     name: "Docker",
     route: "/images/docker.png",
   },
-];
-
-export const learning = [
-  {
-    name: "Tailwind",
-    route: "/images/tailwind.png",
-  },
   {
     name: "NodeJS",
     route: "/images/nodejs.png",
@@ -58,9 +51,20 @@ export const learning = [
     name: "ExpressJS",
     route: "/images/express.png",
   },
+];
+
+export const learning = [
+  {
+    name: "Tailwind",
+    route: "/images/tailwind.png",
+  },
   {
     name: "Spring",
     route: "/images/spring.png",
+  },
+  {
+    name: "Angular",
+    route: "/images/angular.png",
   },
 ];
 
